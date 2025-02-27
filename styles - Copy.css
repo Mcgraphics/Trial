@@ -1,0 +1,113 @@
+/* General body styles */
+body {
+    background-color: #1a1a1a; /* Dark background */
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    color: #e0e0e0; /* Light gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #ff8008, #ffc837); /* Gradient background */
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff; /* White text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ff8008; /* Highlight border */
+}
+
+nav a {
+    color: #ffc837; /* Highlight color */
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    background-color: #444; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 40px;
+    background-color: #222; /* Dark content background */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    margin: 20px auto;
+    border-radius: 10px; /* Rounded corners */
+    max-width: 1200px; /* Centered content */
+}
+
+main h1 {
+    color: #ff8008; /* Highlight color */
+}
+
+main p {
+    line-height: 1.6; /* Better readability */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White text */
+    border-top: 2px solid #ff8008; /* Highlight border */
+}
+
+/* Button styles */
+button {
+    background-color: #ff8008; /* Highlight background */
+    border: none;
+    color: #fff; /* White text */
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 20px 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+button:hover {
+    background-color: #ffc837; /* Lighter highlight on hover */
+}
+
+/* Form styles */
+input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box;
+    background-color: #444; /* Darker input background */
+    color: #e0e0e0; /* Light text */
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ff8008; /* Highlight background */
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ffc837; /* Lighter highlight on hover */
+}
